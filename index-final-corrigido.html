@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talita Haitmam de Goes | Marketing & Social Media</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="llms-txt" href="./llms.txt" type="text/plain">
+
+    <style>
+        /* Ajustes finais de enquadramento */
+        .hero-image-photo {
+            object-fit: contain !important;
+            border-radius: 18px !important;
+            box-shadow: none !important;
+        }
+
+        /* Mídia Paga: cada foto com seu próprio contorno rosa */
+        .case-image-dual {
+            border: none !important;
+            border-radius: 0 !important;
+            overflow: visible !important;
+            aspect-ratio: 9 / 12;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            background: transparent;
+        }
+
+        .case-image-dual-item {
+            min-width: 0;
+            min-height: 0;
+            height: 100%;
+            border: 3px solid var(--color-primary-pink);
+            border-radius: 16px;
+            overflow: hidden;
+            background: var(--color-light-bg);
+        }
+
+        .case-image-dual-item img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- SCROLL PROGRESS BAR -->
+    <div class="scroll-progress"></div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <span>T</span><span>HG</span>
+        </div>
+        <a href="mailto:talita-goes@hotmail.com" class="email">talita-goes@hotmail.com</a>
+    </header>
+
+    <!-- SEÇÃO HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Aberta a novos projetos</div>
+            <h1 class="hero-title">Marketing com estratégia que <span class="highlight">conecta</span> o briefing e chega ao <span class="highlight">resultado</span>.</h1>
+            <p class="hero-description">Sou Talita Haitmam de Goes, profissional de Marketing. Planejo campanhas, produzo conteúdos, gerencio parcerias e organizo eventos, acompanhando cada projeto do primeiro rascunho até a publicação no ar.</p>
+            <div class="hero-info">
+                <div class="info-item">
+                    <span class="info-item-label">Nova Serrana, MG</span>
+                    <span class="info-item-value">Base</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-item-label">Tecnólogo em Marketing</span>
+                    <span class="info-item-value">Auden (MFA) · Conclusão prevista 08/2027</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-item-label">Assist. de Marketing · Analista Jr. · Social Media</span>
+                    <span class="info-item-value">buscando</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="hero-image-bg"></div>
+            <img src="./fotos/perfil-talita.jfif" alt="Talita Haitmam de Goes" class="hero-image-photo" loading="lazy">
+            <div class="hero-name-badge">Talita Haitmam<br>de Goes</div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE MIM -->
+    <section class="section dark">
+        <div class="about-grid">
+            <div class="about-heading">
+                <div class="section-label">01 · Sobre Mim</div>
+                <h2 class="section-title">Quem sou eu?</h2>
+                <p class="about-summary">Comunicação com propósito, organização nos processos e criatividade para transformar ideias em resultados.</p>
+            </div>
+            <div class="about-content-box">
+                <p class="about-intro">Sou Talita, profissional de Marketing com experiência em conteúdo, mídias sociais, comunicação institucional e eventos.</p>
+
+                <p>Minha trajetória no Sicoob Credinova me permitiu acompanhar projetos de ponta a ponta: do planejamento e organização dos cronogramas à produção, publicação e análise de resultados. Essa vivência fortaleceu meu olhar estratégico sem deixar de lado o cuidado com a execução.</p>
+
+                <p>A experiência com atendimento e rotinas administrativas também trouxe uma habilidade essencial para o meu trabalho: entender diferentes públicos, organizar demandas e construir uma comunicação clara e próxima.</p>
+
+                <div class="about-highlights" aria-label="Principais competências">
+                    <span>Estratégia</span>
+                    <span>Criatividade</span>
+                    <span>Organização</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SERVIÇOS -->
+    <section class="section services">
+        <div class="section-label" style="color: var(--color-primary-pink);">02 · O que eu faço</div>
+        <h2 class="section-title">Estratégia, criação e execução</h2>
+        
+        <div class="services-intro">
+            <p>Não são ferramentas isoladas, mas formas de organizar o caos de uma campanha e transformar ideias em <strong>estratégia, execução e resultado</strong>.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-number">01</div>
+                <h3 class="service-title">Planejamento</h3>
+                <p class="service-description">Estratégia de campanha, calendário de conteúdo e identidade visual alinhada ao objetivo.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-number">02</div>
+                <h3 class="service-title">Gestão</h3>
+                <p class="service-description">Campanhas simultâneas, parcerias com influenciadores, prazos e equipes envolvidas.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-number">03</div>
+                <h3 class="service-title">Criação</h3>
+                <p class="service-description">Direção de posts, roteiro de vídeo, artes e copywriting alinhados à voz da marca.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-number">04</div>
+                <h3 class="service-title">Análise</h3>
+                <p class="service-description">Acompanhamento de métricas, leitura de desempenho e ajuste de rota.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-number">05</div>
+                <h3 class="service-title">Execução</h3>
+                <p class="service-description">Eventos, ações comunitárias e endomarketing do papel para a rua.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO TRABALHOS VISUAIS - DESIGNS -->
+    <section class="section portfolio-section">
+        <div class="section-label">03 · Trabalhos visuais - Designs e Postagens</div>
+        <h2 class="portfolio-title">Peças que Comunicam</h2>
+        <p class="portfolio-subtitle">Cada visual é pensado para conectar com o público certo no momento certo.</p>
+        
+        <div class="gallery-designs">
+            <div class="gallery-item" onclick="openModal('./fotos/design-aniversario-agencia.jfif')">
+                <img src="./fotos/design-aniversario-agencia.jfif" alt="Design 1" loading="lazy">
+            </div>
+            <div class="gallery-item" onclick="openModal('./fotos/design-cafe-produtor-rural.jfif')">
+                <img src="./fotos/design-cafe-produtor-rural.jfif" alt="Design 2" loading="lazy">
+            </div>
+            <div class="gallery-item" onclick="openModal('./fotos/design-sipag-natal.jfif')">
+                <img src="./fotos/design-sipag-natal.jfif" alt="Design 3" loading="lazy">
+            </div>
+            <div class="gallery-item" onclick="openModal('./fotos/design-contacao-historias.jfif')">
+                <img src="./fotos/design-contacao-historias.jfif" alt="Design 4" loading="lazy">
+            </div>
+            <div class="gallery-item" onclick="openModal('./fotos/design-grupo-vocal.jfif')">
+                <img src="./fotos/design-grupo-vocal.jfif" alt="Design 5" loading="lazy">
+            </div>
+        </div>
+
+        <h3 class="video-section-title">Conteúdo em Movimento</h3>
+        <p class="video-subtitle">Um recorte das campanhas que passaram pela minha mesa. Captação e edição de vídeos em eventos, campanhas institucionais e comerciais. Do briefing até a publicação, cada frame pensado para gerar engajamento.</p>
+
+        <div class="gallery-videos">
+            <div class="gallery-video" onclick="openModal('./videos/comercial-sicoob-tag.mp4')">
+                <video preload="metadata" poster="./fotos/comercial-sicoob-tag.jpg">
+                    <source src="./videos/comercial-sicoob-tag.mp4" type="video/mp4">
+                </video>
+                <div class="play-icon">▶</div>
+            </div>
+            <div class="gallery-video" onclick="openModal('./videos/evento-institucional-coral.mp4')">
+                <video preload="metadata" poster="./fotos/evento-institucional-coral.jpg">
+                    <source src="./videos/evento-institucional-coral.mp4" type="video/mp4">
+                </video>
+                <div class="play-icon">▶</div>
+            </div>
+            <div class="gallery-video" onclick="openModal('./videos/evento-cafe-produtor-rural.mp4')">
+                <video preload="metadata" poster="./fotos/evento-cafe-produtor-rural.jpg">
+                    <source src="./videos/evento-cafe-produtor-rural.mp4" type="video/mp4">
+                </video>
+                <div class="play-icon">▶</div>
+            </div>
+            <div class="gallery-video" onclick="openModal('./videos/institucional-cartao-zenith.mp4')">
+                <video preload="metadata" poster="./fotos/institucional-cartao-zenith.jfif">
+                    <source src="./videos/institucional-cartao-zenith.mp4" type="video/mp4">
+                </video>
+                <div class="play-icon">▶</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CASES -->
+    <section class="section cases-section">
+        <div class="section-label" style="color: var(--color-primary-pink);">04 · Cases</div>
+
+        <!-- CASE 1 -->
+        <div class="case-item">
+            <div class="case-image">
+                <video style="width:100%;height:100%;object-fit:cover;border-radius:inherit;" preload="metadata" poster="./fotos/endomarketing-fic-movimento.jfif" onclick="event.stopPropagation(); openModal('./videos/endomarketing-fic-movimento.mp4')"><source src="./videos/endomarketing-fic-movimento.mp4" type="video/mp4"></video>
+                <div class="play-icon">▶</div>
+            </div>
+            <div class="case-content">
+                <div class="case-meta">
+                    <span class="case-meta-item">Endomarketing</span>
+                    <span class="case-meta-item">Produção de conteúdo</span>
+                </div>
+                <h3>Endomarketing: ações que fortalecem a cultura interna</h3>
+                
+                <p class="case-description"><strong>Atuação:</strong> desenvolvimento e apoio em ações de endomarketing voltadas para engajamento, integração, comunicação e bem-estar dos colaboradores.</p>
+                
+                <p class="case-description"><strong>Alguns exemplos:</strong> ações de incentivo à leitura, saúde, campanhas internas, eventos, datas comemorativas, conteúdos para comunicação interna e iniciativas de integração entre os colaboradores.</p>
+                
+                <p class="case-description"><strong>Minha competência:</strong> transformar objetivos internos em ações de comunicação criativas, estratégicas e alinhadas ao perfil dos colaboradores.</p>
+                
+                <div class="case-highlight">
+                    <div class="label">Destaque</div>
+                    De 15 a 20%<br>de engajamento do quadro de funcionários
+                </div>
+            </div>
+        </div>
+
+        <!-- CASE 2 -->
+        <div class="case-item">
+            <div class="case-image">
+                <video style="width:100%;height:100%;object-fit:cover;border-radius:inherit;" preload="metadata" poster="./fotos/evento-cafe-produtor-rural.jpg" onclick="event.stopPropagation(); openModal('./videos/evento-cafe-produtor-rural.mp4')"><source src="./videos/evento-cafe-produtor-rural.mp4" type="video/mp4"></video>
+                <div class="play-icon">▶</div>
+            </div>
+            <div class="case-content">
+                <div class="case-meta">
+                    <span class="case-meta-item">Gestão de campanha</span>
+                    <span class="case-meta-item">Multi-canal</span>
+                </div>
+                <h3>Organização e Execução de Eventos</h3>
+                
+                <p class="case-description">Um evento não é só o dia da ação. É tudo que vem antes: estratégia, comunicação, produção de materiais. E tudo que vem depois: conteúdo, análise de engajamento, acompanhamento de leads.</p>
+                
+                <p class="case-description"><strong>Planejamento:</strong> participei da definição de objetivo, público-alvo e cronograma de comunicação. Produzi a identidade visual, coordenei cronograma de publicações nas redes antes do evento.</p>
+                
+                <p class="case-description"><strong>Execução:</strong> criei convites digitais e materiais para o local, produzi scripts para redes sociais, preparei briefing visual de tudo que seria conteúdo depois. Apoiei o coordenador garantindo que cada detalhe estava alinhado. Por fim, acompanhei o evento em tempo real, coordenei captação de conteúdo em fotos e vídeos, documentei cada momento que viraria post depois.</p>
+                
+                <p class="case-description"><strong>Pós-evento:</strong> editei vídeos da ação, produzi carroséis com melhores momentos, acompanhei métricas de engajamento, fiz follow-up com leads gerados. <strong>Resultado:</strong> evento gerou engajamento de 20%+ nas redes, trouxe leads qualificados e consolidou a marca internamente. Fui responsável pela execução visual, conteúdo e acompanhamento de métricas.</p>
+                
+                <p class="case-description"><strong>Minha competência:</strong> estruturo eventos complexos do conceito até a análise, capturando e transformando cada ação em conteúdo que gera resultado.</p>
+            </div>
+        </div>
+
+        <!-- CASE 3 - Luiz Fidelis -->
+        <div class="case-item">
+            <div class="case-image">
+                <video style="width:100%;height:100%;object-fit:cover;border-radius:inherit;" preload="metadata" poster="./fotos/influencia-luiz-fidelis.jpg" onclick="event.stopPropagation(); openModal('./videos/influencia-luiz-fidelis.mp4')"><source src="./videos/influencia-luiz-fidelis.mp4" type="video/mp4"></video>
+                <div class="play-icon">▶</div>
+            </div>
+            <div class="case-content">
+                <div class="case-meta">
+                    <span class="case-meta-item">Gestão de campanha</span>
+                    <span class="case-meta-item">Multi-canal</span>
+                </div>
+                <h3>Marca + Influência + Regionalidade</h3>
+                
+                <p class="case-description"><strong>Desafio:</strong> O Sicoob Credinova Cariri ainda buscava ampliar seu reconhecimento e presença junto ao público do Nordeste. A oportunidade estava em utilizar o marketing de influência não apenas para gerar alcance, mas para conectar a marca a uma personalidade que já possuía relevância, identificação e audiência regional.</p>
+                
+                <p class="case-description"><strong>Estratégia:</strong> A campanha contou com a contratação do cantor Luiz Fidelis, nome conhecido no Nordeste, utilizando sua influência e proximidade com o público regional como ponte para aumentar a exposição da marca. A escolha permitiu inserir o Sicoob Credinova Cariri em um contexto mais próximo da audiência, utilizando uma personalidade que já fazia parte do repertório cultural daquele público.</p>
+                
+                <p class="case-description"><strong>Minha atuação - Briefing:</strong> Apoio na construção e organização dos direcionamentos da campanha, contribuindo para alinhar a comunicação do influenciador aos objetivos da marca.</p>
+                
+                <p class="case-description"><strong>Resultado:</strong> ação gerou maior exposição para o Sicoob Credinova Cariri, aproveitando a relevância regional do artista para ampliar o contato da marca com seu público, foram lançando mais de 441 mil visualizações e contribuindo para a geração de aproximadamente 20 novos leads por mês.</p>
+            </div>
+        </div>
+
+        <!-- CASE 4 - Mídia Paga -->
+        <div class="case-item">
+            <div class="case-image case-image-dual">
+                <div class="case-image-dual-item">
+                    <img src="./fotos/resultado-midia-paga-concurso-cultural.jfif" alt="Mídia Paga - Concurso Cultural" loading="lazy">
+                </div>
+                <div class="case-image-dual-item">
+                    <img src="./fotos/resultado-midia-paga-dia-c.jfif" alt="Mídia Paga - Dia C" loading="lazy">
+                </div>
+            </div>
+            <div class="case-content">
+                <div class="case-meta">
+                    <span class="case-meta-item">Gestão de Tráfego Pago</span>
+                    <span class="case-meta-item">Mídia Paga</span>
+                </div>
+                <h3>Mídia Paga · Meta Ads & Google Ads</h3>
+                
+                <p class="case-description">Como assistente de marketing, fiz parte do fluxo de campanhas pagas de uma cooperativa de crédito, dando suporte direto ao gestor de tráfego externo. Ajudava a organizar briefings e materiais criativos, alinhava prazos e peças com o time de comunicação, acompanhava relatórios de desempenho e apoiava a leitura dos números junto ao gestor, sempre olhando para o equilíbrio entre campanhas comerciais, institucionais e de fortalecimento de marca.</p>
+                
+                <p class="case-description"><strong>Números de um ciclo mensal de campanhas acompanhado de perto, entre organização de materiais e apoio à leitura de resultados junto ao gestor de tráfego:</strong></p>
+                
+                <div class="case-highlight">
+                    2,1 milhões+<br>visualizações geradas em um único mês<br><br>
+                    <span style="font-size: 20px; display: block; margin-top: 20px;">
+                        478 mil+ · pessoas alcançadas<br>
+                        96 · anúncios ativos acompanhados simultaneamente<br>
+                        R$ 1,53 · CPM médio (resultado de uma estrutura de campanhas bem segmentada)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO FERRAMENTAS -->
+    <section class="section tools-section">
+        <div class="section-label" style="color: var(--color-primary-pink);">05 · Ferramentas & Skills</div>
+        <h2 class="section-title">As ferramentas do dia a dia</h2>
+        <p style="color: var(--color-text-light); font-size: 16px; margin-bottom: 40px;">Da criação à organização o que sustenta a rotina de planejar e publicar.</p>
+
+        <div class="tools-grid">
+            <div class="tool-category">
+                <h3 class="tool-category-title">DESIGN</h3>
+                <ul class="tool-list">
+                    <li>Canva</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe InDesign</li>
+                </ul>
+            </div>
+            <div class="tool-category">
+                <h3 class="tool-category-title">VÍDEO</h3>
+                <ul class="tool-list">
+                    <li>CapCut</li>
+                    <li>Edição para redes sociais</li>
+                </ul>
+            </div>
+            <div class="tool-category">
+                <h3 class="tool-category-title">DADOS & MÍDIA</h3>
+                <ul class="tool-list">
+                    <li>Google Analytics</li>
+                    <li>Meta Business Suite</li>
+                    <li>Meta Ads · Google Ads</li>
+                </ul>
+            </div>
+            <div class="tool-category">
+                <h3 class="tool-category-title">ORGANIZAÇÃO</h3>
+                <ul class="tool-list">
+                    <li>Notion · Trello</li>
+                    <li>Pacote Office</li>
+                    <li>ChatGPT / IA aplicada</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tools-grid" style="margin-top: 60px;">
+            <div class="tool-category">
+                <h3 class="tool-category-title">CERTIFICAÇÕES & CURSOS</h3>
+                <ul class="tool-list">
+                    <li>Marketing Digital <span class="certification">RD Station · 2026</span></li>
+                    <li>Social Media Pro <span class="certification">mLabs · 2025</span></li>
+                    <li>Certificações Adobe <span class="certification">Adobe · 2024</span></li>
+                    <li>Gestão de Projetos <span class="certification">Fundação Bradesco · 2021</span></li>
+                    <li>MOS Excel <span class="certification">Fundação Bradesco · 2020</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section class="contact-section">
+        <h2 class="contact-title">Vamos construir a próxima campanha?</h2>
+        <p class="contact-status">Aberta a oportunidades como Social Media, Assistente de Marketing ou Analista de Marketing Júnior.</p>
+        
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/talita-haitmam-de-goes-423313188/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span>LinkedIn</span> <span>↗</span>
+            </a>
+            <a href="https://wa.me/5537984061112" target="_blank" rel="noopener noreferrer" class="contact-link whatsapp">
+                <span>WhatsApp</span>
+            </a>
+        </div>
+
+        <a href="mailto:talita-goes@hotmail.com" class="contact-email">Enviar e-mail</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Talita Haitmam de Goes · THG — Marketing & Social Media
+    </footer>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <img id="modal-img" alt="Visualização ampliada" style="display: none;">
+            <video id="modal-video" style="display: none;" controls></video>
+        </div>
+    </div>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <button class="scroll-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
