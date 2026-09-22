@@ -6,6 +6,45 @@
     <title>Talita Haitmam de Goes | Marketing & Social Media</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="llms-txt" href="./llms.txt" type="text/plain">
+
+    <style>
+        /* Ajustes finais de enquadramento */
+        .hero-image-photo {
+            object-fit: contain !important;
+            border-radius: 16px !important;
+            box-shadow: none !important;
+        }
+
+        /* Mídia Paga: cada foto com seu próprio contorno rosa */
+        .case-image-dual {
+            border: none !important;
+            border-radius: 0 !important;
+            overflow: visible !important;
+            aspect-ratio: 9 / 12;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            background: transparent;
+        }
+
+        .case-image-dual-item {
+            min-width: 0;
+            min-height: 0;
+            height: 100%;
+            border: 3px solid var(--color-primary-pink);
+            border-radius: 16px;
+            overflow: hidden;
+            background: var(--color-light-bg);
+        }
+
+        .case-image-dual-item img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0;
+        }
+    </style>
 </head>
 <body>
     <!-- SCROLL PROGRESS BAR -->
@@ -43,7 +82,7 @@
 
         <div class="hero-image">
             <div class="hero-image-bg"></div>
-            <img src="./fotos/perfil-talita.jfif" alt="Talita Haitmam de Goes" class="hero-image-photo" loading="lazy" style="object-fit: contain;">
+            <img src="./fotos/perfil-talita.jfif" alt="Talita Haitmam de Goes" class="hero-image-photo" loading="lazy">
             <div class="hero-name-badge">Talita Haitmam<br>de Goes</div>
         </div>
     </section>
@@ -156,9 +195,9 @@
                 </video>
                 <div class="play-icon">▶</div>
             </div>
-            <div class="gallery-video" onclick="openModal('./videos/influencia-luiz-fidelis.mp4')">
-                <video preload="metadata" poster="./fotos/influencia-luiz-fidelis.jpg">
-                    <source src="./videos/influencia-luiz-fidelis.mp4" type="video/mp4">
+            <div class="gallery-video" onclick="openModal('./videos/institucional-cartao-zenith.mp4')">
+                <video preload="metadata" poster="./fotos/institucional-cartao-zenith.jfif">
+                    <source src="./videos/institucional-cartao-zenith.mp4" type="video/mp4">
                 </video>
                 <div class="play-icon">▶</div>
             </div>
@@ -242,8 +281,13 @@
 
         <!-- CASE 4 - Mídia Paga -->
         <div class="case-item">
-            <div class="case-image">
-                <div class="case-media-gallery" style="display:flex;gap:12px;flex-wrap:wrap;"><img style="width:calc(50% - 6px);object-fit:cover;" src="./fotos/resultado-midia-paga-concurso-cultural.jfif" alt="Mídia Paga - Concurso Cultural" loading="lazy"><img style="width:calc(50% - 6px);object-fit:cover;" src="./fotos/resultado-midia-paga-dia-c.jfif" alt="Mídia Paga - Dia C" loading="lazy"></div>
+            <div class="case-image case-image-dual">
+                <div class="case-image-dual-item">
+                    <img src="./fotos/resultado-midia-paga-concurso-cultural.jfif" alt="Mídia Paga - Concurso Cultural" loading="lazy">
+                </div>
+                <div class="case-image-dual-item">
+                    <img src="./fotos/resultado-midia-paga-dia-c.jfif" alt="Mídia Paga - Dia C" loading="lazy">
+                </div>
             </div>
             <div class="case-content">
                 <div class="case-meta">
